@@ -1,0 +1,105 @@
+table{
+    border-collapse: collapse;
+}
+div{
+    background-color: rgba(137, 219, 29, 0.829);
+    margin:10px;
+    padding: 10px;
+}
+.dotted{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: violet;
+
+
+    margin-top: 100px;
+    margin-bottom: 23px;
+    margin-left: 85px;
+    outline: solid turquoise 15px;
+    padding-top:10px;
+    padding-right: 52px;
+    padding-left: 45px;
+}
+.solid{
+    border:5px solid moccasin;
+    margin: 10px 20px;
+    padding: 85px 45px 35px 20px;
+    opacity: 0,1;
+}
+.groove{
+    border:5px groove blue;
+    margin:40px 15px 20px 25px;
+}
+.mix{
+    border-left: rgb(0, 38, 255);
+    border-right :5px  blue;
+    border-top:10px dotted green;
+}
+.dashed{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: violet;
+    position: fixed;
+
+}
+.double{
+
+    border-style: double;
+    border-width: 5px;
+    border-color: violet;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left:-20px;
+
+    min-width: 200px;
+    max-width: 600px;
+    min-height: 250px;
+    max-height: 650px;
+}
+.mix,table,outset{
+    font-size: 20px;
+    color: tomato;
+}
+.cocuk{
+    background-color: yellow;
+    display: inline;
+}
+.inset{
+position: absolute;
+}
+.ana1{
+    float:right;
+    background-color: purple;
+    
+
+}
+.cocuk1{
+    background-color: yellow;
+    clear :both;
+}
+.ozel-a:link{
+    color: aqua;
+}
+.ozel-a:hover{
+    color:green;
+}
+.ozel-a:visited{
+    color:brown;
+}
+.ozel-a:active{
+    color:black;
+}
+@media (max-width:600px) {
+    
+    .ana{
+        background-color: violet;
+    }
+    
+}
+[title=baslık]{
+    background-color: rgb(166, 211, 42);
+}
+[type="text"]{
+    background-color: crimson;
+}
